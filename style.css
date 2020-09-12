@@ -1,0 +1,149 @@
+html {
+    background: black;
+    background-blend-mode: multiply;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cover {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cover-img {
+    background-image: url(/img/cover.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+header {
+    padding-top: 70px;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0 16vw;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+nav ul li {
+    padding: 0 30px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+}
+
+nav a:hover:link,
+nav a:hover:visited,
+nav a:hover:active {
+    transform: scale(1.2);
+}
+
+nav a:link,
+nav a:visited,
+nav a:active {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: red;
+}
+
+#cover-name {
+    text-align: center;
+    margin-top: 280px;
+}
+
+main {
+    margin-top: 100vh;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.project-cards {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-cards p {
+    padding-top: 20px;
+}
+
+#about-container {
+    margin-top: 100px;
+}
+
+#about-container p {
+    padding: 20px 0;
+}
+
+#contact-container {
+    margin-top: 100px;
+}
+
+#contact-container p {
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 1430px) {
+    body {
+        padding: 0 7vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        padding: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    #about-container {
+        margin-top: 50px;
+    }
+    #contact-container {
+        margin-top: 50px;
+    }
+}
