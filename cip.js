@@ -9,3 +9,9 @@ $(window).scroll(function() {
         backToTop.fadeOut();
     }
 });
+
+document.querySelectorAll('.fab').forEach(item => {
+    item.addEventListener('click', dap => {
+        window.open("https://github.com/ciprianstn/portfolio", '_blank');
+    })
+})
