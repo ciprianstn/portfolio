@@ -1,0 +1,17 @@
+html {
+    background-blend-mode: multiply;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+    scroll-behavior: smooth;
+    background-color: #e7eff9;
+    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0 16vw;
+}
+
+#main-container {}
