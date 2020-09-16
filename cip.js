@@ -22,3 +22,10 @@ function openProjects() {
     var smallProjects = window.open("/projects.html",
         "_self");
 }
+
+document.querySelector('#landing-pages-btn').addEventListener("click", openLanding);
+
+function openLanding() {
+    var landingPages = window.open("/landing.html",
+        "_self");
+}

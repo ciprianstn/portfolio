@@ -32,7 +32,8 @@ header {
 
 body {
     box-sizing: border-box;
-    padding: 0 16vw;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -110,7 +111,7 @@ h1 {
 
 .project-cards {
     width: 400px;
-    height: 300px;
+    height: 400px;
     margin: 20px;
     border: 1px solid white;
     display: flex;
@@ -123,7 +124,7 @@ h1 {
     padding-top: 20px;
 }
 
-#small-projects-btn {
+.card-buttons {
     outline: none;
     border: none;
     border-radius: 5px;
@@ -164,6 +165,7 @@ h1 {
 
 #about-container {
     margin-top: 100px;
+    padding: 0 5rem;
 }
 
 #about-container p {
@@ -172,6 +174,7 @@ h1 {
 
 #contact-container {
     margin-top: 100px;
+    padding: 0 5rem;
 }
 
 #contact-container p {
@@ -190,13 +193,16 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 1430px) {
+@media screen and (max-width: 1250px) {
+    .fas {
+        right: 2vw;
+    }
     body {
-        padding: 0 7vw;
+        padding: 0 5vw;
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     header {
         padding: 0;
     }
@@ -204,7 +210,7 @@ h1 {
         flex-direction: column;
         align-items: center;
         margin: 0;
-        padding: 0;
+        padding-top: 20px;
     }
     #about-container {
         margin-top: 50px;

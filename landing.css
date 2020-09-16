@@ -15,4 +15,17 @@ body {
     margin: 0 auto;
 }
 
-#main-container {}
+#main-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    border: 3px solid red;
+    flex-wrap: wrap;
+}
+
+.landing-cards {
+    border: 3px solid green;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
