@@ -28,4 +28,18 @@ body {
     width: 400px;
     height: 400px;
     margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    text-decoration: none;
+    color: pink;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
 }
