@@ -1,6 +1,6 @@
 var backToTop = $(".fas");
 
-var scrollAmount = 150;
+var scrollAmount = 200;
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > scrollAmount) {

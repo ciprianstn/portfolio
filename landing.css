@@ -9,6 +9,70 @@ html {
     background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
 }
 
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+    padding-top: 70px;
+    z-index: 1;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+nav ul li {
+    padding: 0 30px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    z-index: 1;
+}
+
+nav a:hover:link,
+nav a:hover:visited,
+nav a:hover:active {
+    transform: scale(1.2);
+}
+
+nav a:link,
+nav a:visited,
+nav a:active {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: black;
+}
+
+.fas {
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 5vw;
+    cursor: pointer;
+    display: none;
+}
+
 body {
     box-sizing: border-box;
     max-width: 1200px;
@@ -33,7 +97,7 @@ body {
     justify-content: center;
 }
 
-a {
+.landing-cards a {
     display: block;
     position: absolute;
     bottom: 30px;
