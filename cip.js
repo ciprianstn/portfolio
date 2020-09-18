@@ -10,6 +10,16 @@ $(window).scroll(function() {
     }
 });
 
+document.querySelectorAll('a[href="#cover"]').forEach(fas => {
+    fas.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 document.querySelectorAll('.fab').forEach(item => {
     item.addEventListener('click', dap => {
         window.open("https://github.com/ciprianstn/portfolio", '_blank');
