@@ -70,7 +70,8 @@ body {
     margin: 0 auto;
 }
 
-#main-container {
+
+/*#main-container {
     margin-top: 120px;
     display: flex;
     justify-content: center;
@@ -90,6 +91,34 @@ body {
 #main-container a:active,
 #main-container a:visited {
     color: black;
+}*/
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.landing-cards {
+    border: 3px solid green;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-cards a {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    text-decoration: none;
+    color: pink;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1250px) {
