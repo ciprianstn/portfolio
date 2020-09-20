@@ -70,29 +70,6 @@ body {
     margin: 0 auto;
 }
 
-
-/*#main-container {
-    margin-top: 120px;
-    display: flex;
-    justify-content: center;
-}
-
-#main-container li {
-    list-style-type: none;
-    padding: 5px 0;
-    font-size: 24px;
-}
-
-#main-container a {
-    text-decoration: none;
-}
-
-#main-container a:link,
-#main-container a:active,
-#main-container a:visited {
-    color: black;
-}*/
-
 #main-container {
     display: flex;
     justify-content: center;
@@ -102,6 +79,8 @@ body {
 
 .landing-cards {
     border: 3px solid green;
+    background: url(/img/projects-randombg.png) no-repeat top;
+    background-size: 400px 300px;
     width: 400px;
     height: 400px;
     margin: 20px;
@@ -110,10 +89,19 @@ body {
     justify-content: center;
 }
 
+.landing-cards p {
+    margin-top: 40px;
+    position: absolute;
+    bottom: 50px;
+    color: red;
+    font-size: 24;
+    text-shadow: 3% 3% 3px;
+}
+
 .landing-cards a {
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     text-decoration: none;
     color: pink;
     background: green;
