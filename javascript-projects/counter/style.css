@@ -3,13 +3,21 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    color: white;
+    text-shadow: 3px 3px 8px black;
 }
 
 body {
     display: flex;
     justify-content: center;
-    max-width: 1000px;
     margin: 200px auto;
+    height: 100vh;
+    background: url(/javascript-projects/counter/counter-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
@@ -30,30 +38,34 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+    body {
+        margin-top: 150px;
+    }
     .container p {
         font-size: 40px;
     }
     .time {
-        max-width: 80% margin: 0 auto;
+        max-width: 80%;
+        margin: 0 auto;
     }
     .grid-container {
         width: 70;
         margin: auto;
         font-size: 30px;
         grid-template-areas: 'days hours' 'daysl hoursl' 'minutes seconds' 'minutesl secondsl';
-        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-template-rows: repeat(200px, 4fr);
     }
-    #days {
+    #d {
         grid-area: days;
     }
-    #hours {
+    #h {
         grid-area: hours;
     }
-    #minutes {
+    #m {
         grid-area: minutes;
     }
-    #seconds {
+    #s {
         grid-area: seconds;
     }
     #daysl {
