@@ -79,15 +79,17 @@ body {
 }
 
 .landing-cards {
-    border: 3px solid green;
-    background: url(/img/landing-automotive.png) no-repeat top;
-    background-size: 400px 300px;
     width: 400px;
     height: 400px;
     margin: 20px;
     position: relative;
     display: flex;
     justify-content: center;
+}
+
+.landing-cards:nth-child(1) {
+    background: url(/img/landing-automotive.png) no-repeat top;
+    background-size: 400px 300px;
 }
 
 .landing-cards p {
