@@ -136,6 +136,10 @@ h1 {
     padding: 4px 5px;
 }
 
+.card-buttons:hover {
+    background-color: white;
+}
+
 .fab {
     font-size: 30px;
     position: absolute;
