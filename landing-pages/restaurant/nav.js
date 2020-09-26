@@ -1,5 +1,6 @@
 document.getElementById("hamburger").addEventListener("click", navbar);
 
 function navbar() {
-    document.querySelector("nav").removeAttribute("class");
+    var element = document.querySelector("nav");
+    element.classList.toggle("hide");
 }

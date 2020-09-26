@@ -165,4 +165,10 @@ a:visited {
         right: 50px;
         font-size: 36px;
     }
+    .fa-bars:after {
+        color: red;
+    }
+    .fa-bars:active:after {
+        color: blue;
+    }
 }
