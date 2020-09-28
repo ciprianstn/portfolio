@@ -1,0 +1,56 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+
+.btn-line {
+    background: white;
+    width: 50px;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fas {
+    color: white;
+    font-size: 50px;
+}
+
+.fa-phone {
+    cursor: pointer;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.text1 p:nth-child(1) {
+    color: white;
+    font-size: 46px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.text1 p:nth-child(2) {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
