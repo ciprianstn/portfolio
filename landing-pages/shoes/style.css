@@ -53,4 +53,65 @@ header {
 .product {
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.product .fas {
+    position: absolute;
+    top: 45%;
+    color: black;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.fa-chevron-left {
+    left: 30px;
+}
+
+.fa-chevron-right {
+    right: 30px;
+}
+
+.motto {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    margin-top: -80px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.learn-more p {
+    background-color: #40020E;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.circles {
+    background: rgb(58, 45, 45);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.active {
+    background: white;
 }
