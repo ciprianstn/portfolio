@@ -81,6 +81,7 @@ header {
     font-weight: bold;
     position: relative;
     z-index: 1;
+    max-width: 100%;
 }
 
 .learn-more {
@@ -114,4 +115,69 @@ header {
 
 .active {
     background: white;
+}
+
+@media screen and (max-width: 730px) {
+    .motto {
+        font-size: 60px;
+    }
+    .fa-chevron-left {
+        left: -30px;
+    }
+    .fa-chevron-right {
+        right: -30px;
+    }
+    .text1 p:nth-child(1) {
+        font-size: 30px;
+    }
+    .text1 p:nth-child(2) {
+        font-size: 20px;
+    }
+    header .fas {
+        color: white;
+        font-size: 30px;
+    }
+    .btn-line {
+        width: 40px;
+        height: 6px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .motto {
+        font-size: 50px;
+    }
+    .fa-chevron-left {
+        left: -30px;
+    }
+    .fa-chevron-right {
+        right: -30px;
+    }
+    .text1 p:nth-child(1) {
+        font-size: 20px;
+    }
+    .text1 p:nth-child(2) {
+        font-size: 15px;
+    }
+    header .fas {
+        color: white;
+        font-size: 30px;
+    }
+    .btn-line {
+        width: 30px;
+        height: 3x;
+        margin-bottom: 6px;
+    }
+    .product img {
+        margin-top: 50px;
+        height: 400px;
+        width: 600px;
+    }
+    .learn-more p {
+        margin-top: 50px;
+        font-size: 30px;
+        width: 180px;
+        padding: 5px 20px;
+    }
 }
