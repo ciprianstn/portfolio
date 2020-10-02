@@ -107,6 +107,11 @@ body {
     background-size: 400px 300px;
 }
 
+.landing-cards:nth-child(5) {
+    background: url(/img/newyorkbg.png) no-repeat top;
+    background-size: 400px 300px;
+}
+
 .landing-cards p {
     position: absolute;
     bottom: 50px;
