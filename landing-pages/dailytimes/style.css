@@ -20,8 +20,8 @@ html {
 }
 
 img {
-    width: 500px;
-    height: 500px;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 .date {
@@ -53,4 +53,73 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-content: space-between;
+}
+
+.columns {
+    padding: 10px 20px;
+}
+
+.column1 {
+    border-right: 2px solid rgba(107, 107, 107, 0.2);
+}
+
+.column2 {
+    border-right: 2px solid rgba(107, 107, 107, 0.2);
+}
+
+@media screen and (max-width: 900px) {
+    .date {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .fas {
+        font-size: 30px;
+    }
+    #daily {
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header2 {
+        margin-top: 10px;
+    }
+    .date {
+        margin: 0 5px;
+        font-size: 16px;
+        font-weight: 700;
+        width: 120px;
+    }
+    .fas {
+        margin: 0 5px;
+        font-size: 20px;
+    }
+    #daily {
+        margin: 0 5px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    nav ul {
+        padding: 0;
+    }
+    .content {
+        grid-template-columns: 1fr;
+    }
+    .column1 {
+        border-bottom: 2px solid rgba(107, 107, 107, 0.2);
+    }
+    .column2 {
+        border-bottom: 2px solid rgba(107, 107, 107, 0.2);
+    }
+    .column3 img {
+        display: block;
+        margin: 0 auto;
+    }
 }

@@ -88,7 +88,7 @@ body {
 }
 
 .landing-cards:nth-child(1) {
-    background: url(/img/landing-automotive.png) no-repeat top;
+    background: url(/img/dailytimes.png) no-repeat top;
     background-size: 400px 300px;
 }
 
@@ -109,6 +109,11 @@ body {
 
 .landing-cards:nth-child(5) {
     background: url(/img/newyorkbg.png) no-repeat top;
+    background-size: 400px 300px;
+}
+
+.landing-cards:nth-child(6) {
+    background: url(/img/landing-automotive.png) no-repeat top;
     background-size: 400px 300px;
 }
 
