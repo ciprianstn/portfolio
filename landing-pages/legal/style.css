@@ -72,3 +72,48 @@ p {
     font-size: 60px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 980px) {
+    .main-texts {
+        padding: 22px 80px;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .main-texts {
+        padding: 22px 40px;
+    }
+    .text1 .text-p {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .text1 .text-p p:nth-child(1) {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .fa-chevron-right {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .container {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    .content-right {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .main-texts {
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    .fa-balance-scale-right {
+        font-size: 40px;
+    }
+}
