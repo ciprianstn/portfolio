@@ -1,0 +1,130 @@
+    html {
+        padding: 0;
+        margin: 0;
+        color: white;
+        background-color: black;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    
+    .header {
+        margin-top: 150px;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .play {
+        width: 50px;
+        margin: 0 auto;
+    }
+    
+    .fa-play {
+        display: inline-block;
+        font-size: 40px;
+        line-height: 50px;
+        align-self: center;
+    }
+    
+    .nav span {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    
+    button {
+        outline-style: none;
+        font-size: 26px;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+        font-weight: 700;
+        padding: 0px 25px;
+        height: 50px;
+    }
+    
+    .content {
+        border-top: 6px solid white;
+        margin-top: 40px;
+        padding-top: 70px;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(360px, 1fr));
+        grid-gap: 20px;
+        justify-items: center;
+    }
+    
+    .img-div {
+        position: relative;
+        border: 2px solid white;
+        width: 100%;
+        max-width: 400px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .img-div .fas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .cards-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    
+    span {
+        font-size: 45px;
+    }
+    
+    .cards-text p {
+        font-size: 30px;
+    }
+    
+    #span-yellow {
+        color: yellow;
+    }
+    
+    #span-blue {
+        color: blue;
+    }
+    
+    #span-red {
+        color: red;
+    }
+    
+    .cards-text button {
+        width: 200px;
+        margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 700px) {
+        .container {
+            padding: 0;
+        }
+        .nav span {
+            font-size: 30px;
+        }
+        button {
+            padding: 0;
+        }
+    }

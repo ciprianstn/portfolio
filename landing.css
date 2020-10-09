@@ -93,26 +93,31 @@ body {
 }
 
 .landing-cards:nth-child(2) {
-    background: url(/img/restaurant.png) no-repeat top;
+    background: url(/img/netstream.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(3) {
-    background: url(/img/shoe.png) no-repeat top;
+    background: url(/img/restaurant.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(4) {
-    background: url(/img/fashion.png) no-repeat top;
+    background: url(/img/shoe.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(5) {
-    background: url(/img/newyorkbg.png) no-repeat top;
+    background: url(/img/fashion.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(6) {
+    background: url(/img/newyorkbg.png) no-repeat top;
+    background-size: 400px 300px;
+}
+
+.landing-cards:nth-child(7) {
     background: url(/img/landing-automotive.png) no-repeat top;
     background-size: 400px 300px;
 }
