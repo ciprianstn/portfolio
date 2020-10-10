@@ -1,0 +1,136 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.fas {
+    font-size: 73px;
+    position: absolute;
+}
+
+#banner {
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+nav {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.topnav,
+.botnav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.topnav {
+    font-size: 50px;
+}
+
+.botnav {
+    font-size: 30px;
+}
+
+.botnav1 {
+    color: #007FF4;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+ul li {
+    padding-left: 20px;
+}
+
+li.active {
+    color: #007FF4;
+    font-weight: 700;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.cards img {
+    height: 250px;
+}
+
+.cards span {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.btn span {
+    background-color: #208FF5;
+    padding: 15px 30px;
+    color: white;
+}
+
+@media screen and (max-width: 1180px) {
+    .fas {
+        font-size: 40px;
+    }
+    .topnav {
+        font-size: 35px;
+        margin-left: 55px;
+    }
+    .botnav {
+        font-size: 25px;
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .fas {
+        font-size: 30px;
+    }
+    .topnav {
+        font-size: 25px;
+        margin-left: 35px;
+    }
+    .botnav {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+}
