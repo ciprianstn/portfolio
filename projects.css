@@ -96,6 +96,11 @@ body {
     background-size: 400px 300px;
 }
 
+.landing-cards:nth-child(3) {
+    background: url(/img/calculator.png) no-repeat top;
+    background-size: 400px 300px;
+}
+
 .landing-cards p {
     margin-top: 40px;
     position: absolute;
