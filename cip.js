@@ -10,7 +10,7 @@ $(window).scroll(function() {
     }
 });
 
-document.querySelectorAll('a[href="#cover"]').forEach(fas => {
+document.querySelectorAll('a[href="header"]').forEach(fas => {
     fas.addEventListener('click', function(e) {
         e.preventDefault();
 
@@ -22,7 +22,7 @@ document.querySelectorAll('a[href="#cover"]').forEach(fas => {
 
 document.querySelectorAll('.fab').forEach(item => {
     item.addEventListener('click', dap => {
-        window.open("https://github.com/ciprianstn/portfolio", '_blank');
+        window.open("https://github.com/ciprianstn", '_blank');
     })
 })
 
