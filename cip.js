@@ -25,17 +25,3 @@ document.querySelectorAll('.fab').forEach(item => {
         window.open("https://github.com/ciprianstn", '_blank');
     })
 })
-
-document.querySelector('#small-projects-btn').addEventListener("click", openProjects);
-
-function openProjects() {
-    var smallProjects = window.open("/projects.html",
-        "_self");
-}
-
-document.querySelector('#landing-pages-btn').addEventListener("click", openLanding);
-
-function openLanding() {
-    var landingPages = window.open("/landing.html",
-        "_self");
-}

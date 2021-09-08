@@ -9,7 +9,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-image: url(/landing-pages/automotive/img/bg-img.jpg);
+    background-image: url(img/bg-img.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;

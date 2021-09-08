@@ -17,10 +17,6 @@ body {
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(/img/cover-transparent.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 nav ul {
@@ -92,17 +88,17 @@ body {
 }
 
 .landing-cards:nth-child(1) {
-    background: url(/img/projects-randombg.png) no-repeat top;
+    background: url(img/projects-randombg.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(2) {
-    background: url(/img/projects-countdownbg.png) no-repeat top;
+    background: url(img/projects-countdownbg.png) no-repeat top;
     background-size: 400px 300px;
 }
 
 .landing-cards:nth-child(3) {
-    background: url(/img/calculator.png) no-repeat top;
+    background: url(img/calculator.png) no-repeat top;
     background-size: 400px 300px;
 }
 

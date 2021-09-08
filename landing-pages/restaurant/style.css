@@ -7,7 +7,7 @@ html {
 
 body {
     height: 100vh;
-    background: url(/img/restaurant-bg.png) no-repeat center/cover;
+    background: url(bg.png) no-repeat center/cover;
     position: relative;
 }
 

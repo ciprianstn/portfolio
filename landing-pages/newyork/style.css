@@ -22,7 +22,7 @@ nav {
 .content {
     height: 100vh;
     width: calc(100vw - 400px);
-    background-image: url("/landing-pages/newyork/newyork.jpg");
+    background-image: url("newyork.jpg");
     background-position: center;
     background-size: cover;
 }
