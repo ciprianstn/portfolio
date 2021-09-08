@@ -32,11 +32,13 @@ body {
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/cover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-size: 20px;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav {
@@ -68,6 +70,7 @@ nav a:hover:link,
 nav a:hover:visited,
 nav a:hover:active {
     transform: scale(1.2);
+    color: #0099ff;
 }
 
 nav a:link,
@@ -217,7 +220,16 @@ h1 {
 }
 
 #contact-container p {
-    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#contact-container a:active,
+#contact-container a:link,
+#contact-container a:visited,
+#contact-container a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1250px) {
